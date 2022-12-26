@@ -127,22 +127,33 @@ CREATE TABLE `contacts` (
 --
 
 INSERT INTO `contacts` (`contact_id`, `firstname`, `lastname`, `email`, `city_id`, `company_id`, `position`, `interest`, `address`) VALUES
-(1, 'Severus', 'Snape', 'severussnape@gmail.com', 14, 4, 'Dark Arts', 100, 'Mitre 3355'),
-(2, 'Hermione', 'Granger', 'hermionegranger@yahoo.com', 13, 3, 'Witch', 100, 'San Martín 456'),
-(3, 'Harry', 'Potter', 'harrypotter@gmail.com', 8, 3, 'Wizard', 50, 'España 7768'),
-(4, 'Ronald', 'Weasley', 'ronaldweasley@gmail.com', 1, 3, 'Wizard', 50, 'Italia 2367'),
-(5, 'Albus', 'Dumbledore', 'albusdumbledore@yahoo.com', 12, 3, 'Headmaster', 75, 'Balcarce 567'),
-(6, 'Cedric', 'Diggory', 'cedricdiggory@gmail.com', 2, 6, 'Wizard', 25, 'Moreno 980'),
-(7, 'Luna', 'Lovegood', 'lunalovegood@gmail.com', 3, 5, 'Witch', 75, 'Maipú 2136'),
-(8, 'Bellatrix', 'Lestrange', 'bellatrixlestrange@gmail.com', 1, 4, 'Witch', 0, 'Pasco 3245'),
-(9, 'Draco', 'Malfoy', 'dmalfoy@acamica.com', 6, 1, 'Wizard', 0, 'Ayacucho 1987'),
-(10, 'Lord', 'Voldemort', 'lordvoldemort@globant.com', 16, 2, 'Wizard', 25, 'Cochabamba 1531'),
-(11, 'Rubeus', 'Hagrid', 'hagrid@globant.com', 2, 2, 'Wizard', 100, 'Montevideo 2654'),
-(12, 'Minerva', 'McGonagall', 'minervamcgonagall@acamica.com', 7, 1, 'Transfiguration', 75, 'Mendoza 2105'),
-(13, 'Neville', 'Longbottom', 'nevillelongbottom@gryffindor.com', 11, 3, 'Wizard', 75, 'Entre Ríos 1920'),
-(14, 'Sirius', 'Black', 'siriusblack@acamica.com', 6, 1, 'Wizard', 75, 'Pescio 2106'),
-(15, 'Dolores', 'Umbridge', 'doloresumbridge@slytherin.com', 14, 4, 'Witch', 50, 'La Paz'),
-(16, 'Narcissa', 'Malfoy', 'narcissamalfoy@slytherin.com', 15, 4, 'Witch', 0, 'Córdoba 1453');
+(1, 'Emiliano', 'Martinez', 'dibumartinez@gmail.com', 14, 4, 'Arquero', 100, 'Mitre 3355'),
+(2, 'Juan', 'Foyth', 'nicootamendi@yahoo.com', 13, 3, 'Witch', 100, 'San Martín 456'),
+(3, 'Nicolas', 'Tagliafico', 'nicotaglia@gmail.com', 8, 3, 'Wizard', 50, 'España 7768'),
+(4, 'Gonzalo', 'Montiel', 'ronaldweasley@gmail.com', 1, 3, 'Wizard', 50, 'Italia 2367'),
+(5, 'Leandro', 'Paredes', 'albusdumbledore@yahoo.com', 12, 3, 'Headmaster', 75, 'Balcarce 567'),
+(6, 'German', 'Pezzela', 'cedricdiggory@gmail.com', 2, 6, 'Wizard', 25, 'Moreno 980'),
+(7, 'Rodrigo', 'De Paul', 'lunalovegood@gmail.com', 3, 5, 'Witch', 75, 'Maipú 2136'),
+(8, 'Marcos', 'Acuña', 'bellatrixlestrange@gmail.com', 1, 4, 'Witch', 0, 'Pasco 3245'),
+(9, 'Julian', 'Alvarez', 'dmalfoy@acamica.com', 6, 1, 'Wizard', 0, 'Ayacucho 1987'),
+(10, 'Lionel', 'Messi', 'lordvoldemort@globant.com', 16, 2, 'Wizard', 25, 'Cochabamba 1531'),
+(11, 'Angel', 'Di maria', 'hagrid@globant.com', 2, 2, 'Wizard', 100, 'Montevideo 2654'),
+(12, 'Ruli', 'Geronimo', 'minervamcgonagall@acamica.com', 7, 1, 'Transfiguration', 75, 'Mendoza 2105'),
+(13, 'Romero', 'Cristian', 'nevillelongbottom@gryffindor.com', 11, 3, 'Wizard', 75, 'Entre Ríos 1920'),
+(14, 'Exequiel', 'Palacios', 'siriusblack@acamica.com', 6, 1, 'Wizard', 75, 'Pescio 2106'),
+(15, 'Alejandro', 'Gomez', 'doloresumbridge@slytherin.com', 14, 4, 'Witch', 50, 'La Paz'),
+(16, 'Thiago', 'Almada', 'narcissamalfoy@slytherin.com', 15, 4, 'Witch', 0, 'Córdoba 1453');
+(17, 'Joaquin', 'Correa', 'narcissamalfoy@slytherin.com', 15, 4, 'Witch', 0, 'Córdoba 1453');
+(18, 'Guido', 'Rodriguez', 'narcissamalfoy@slytherin.com', 15, 4, 'Witch', 0, 'Córdoba 1453');
+(19, 'Nicolas', 'Otamendi', 'narcissamalfoy@slytherin.com', 15, 4, 'Witch', 0, 'Córdoba 1453');
+(20, 'Alexis', 'Macallister', 'narcissamalfoy@slytherin.com', 15, 4, 'Witch', 0, 'Córdoba 1453');
+(21, 'Paulo', 'Dybala', 'narcissamalfoy@slytherin.com', 15, 4, 'Witch', 0, 'Córdoba 1453');
+(22, 'Lautaro', 'Martinez', 'narcissamalfoy@slytherin.com', 15, 4, 'Witch', 0, 'Córdoba 1453');
+(23, 'Emiliano', 'Martinez', 'narcissamalfoy@slytherin.com', 15, 4, 'Witch', 0, 'Córdoba 1453');
+(24, 'Enzo', 'Fernandez', 'narcissamalfoy@slytherin.com', 15, 4, 'Witch', 0, 'Córdoba 1453');
+(25, 'Lisandro', 'Martinez', 'narcissamalfoy@slytherin.com', 15, 4, 'Witch', 0, 'Córdoba 1453');
+(26, 'Nahuel', 'Molina', 'narcissamalfoy@slytherin.com', 15, 4, 'Witch', 0, 'Córdoba 1453');
+
 
 -- --------------------------------------------------------
 
