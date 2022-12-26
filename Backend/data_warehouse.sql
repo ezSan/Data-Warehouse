@@ -98,14 +98,14 @@ CREATE TABLE `companies` (
 
 INSERT INTO `companies` (`company_id`, `company_name`, `city_id`, `address`, `email`, `telephone`) VALUES
 (1, 'Acámica', 1, 'Humboldt 1967', 'hola@acamica.com', '540112345678'),
-(2, 'Globant', 3, 'Av. Madres Plaza de Mayo 3020', 'hi@globant.com', '540341234567'),
-(3, 'Gryffindor', 2, 'Sarmiento 1234', 'gryffindor@gmail.com', '540351456789'),
-(4, 'Slytherin ', 4, 'Pasco 123', 'slytherin@yahoo.com', '57123456789'),
-(5, 'Ravenclaw', 16, 'Pedernera 4567', 'ravenclaw@gmail.com', '1830123456789'),
-(6, 'Hufflepuff ', 12, 'Pellegrini 3456', 'hufflepuff@gmail.com', '598234567890');
+(2, 'Digital House', 3, 'Av. Madres Plaza de Mayo 3020', 'digitalHouse@globant.com', '540341234567'),
+(3, 'Paris Saint German', 2, 'Sarmiento 1234', 'psg@gmail.com', '540351456789'),
+(4, 'Juventus ', 4, 'Pasco 123', 'Juventus@yahoo.com', '57123456789'),
+(5, 'Benfica', 16, 'Pedernera 4567', 'Benfica@gmail.com', '1830123456789'),
+(6, 'Brightom ', 12, 'Pellegrini 3456', 'Brightom@gmail.com', '598234567890');
 
 -- --------------------------------------------------------
-
+|
 --
 -- Estructura de tabla para la tabla `contacts`
 --
@@ -127,32 +127,23 @@ CREATE TABLE `contacts` (
 --
 
 INSERT INTO `contacts` (`contact_id`, `firstname`, `lastname`, `email`, `city_id`, `company_id`, `position`, `interest`, `address`) VALUES
-(1, 'Emiliano', 'Martinez', 'dibumartinez@gmail.com', 14, 4, 'Arquero', 100, 'Mitre 3355'),
-(2, 'Juan', 'Foyth', 'nicootamendi@yahoo.com', 13, 3, 'Witch', 100, 'San Martín 456'),
-(3, 'Nicolas', 'Tagliafico', 'nicotaglia@gmail.com', 8, 3, 'Wizard', 50, 'España 7768'),
-(4, 'Gonzalo', 'Montiel', 'ronaldweasley@gmail.com', 1, 3, 'Wizard', 50, 'Italia 2367'),
-(5, 'Leandro', 'Paredes', 'albusdumbledore@yahoo.com', 12, 3, 'Headmaster', 75, 'Balcarce 567'),
-(6, 'German', 'Pezzela', 'cedricdiggory@gmail.com', 2, 6, 'Wizard', 25, 'Moreno 980'),
-(7, 'Rodrigo', 'De Paul', 'lunalovegood@gmail.com', 3, 5, 'Witch', 75, 'Maipú 2136'),
-(8, 'Marcos', 'Acuña', 'bellatrixlestrange@gmail.com', 1, 4, 'Witch', 0, 'Pasco 3245'),
-(9, 'Julian', 'Alvarez', 'dmalfoy@acamica.com', 6, 1, 'Wizard', 0, 'Ayacucho 1987'),
-(10, 'Lionel', 'Messi', 'lordvoldemort@globant.com', 16, 2, 'Wizard', 25, 'Cochabamba 1531'),
-(11, 'Angel', 'Di maria', 'hagrid@globant.com', 2, 2, 'Wizard', 100, 'Montevideo 2654'),
-(12, 'Ruli', 'Geronimo', 'minervamcgonagall@acamica.com', 7, 1, 'Transfiguration', 75, 'Mendoza 2105'),
-(13, 'Romero', 'Cristian', 'nevillelongbottom@gryffindor.com', 11, 3, 'Wizard', 75, 'Entre Ríos 1920'),
-(14, 'Exequiel', 'Palacios', 'siriusblack@acamica.com', 6, 1, 'Wizard', 75, 'Pescio 2106'),
-(15, 'Alejandro', 'Gomez', 'doloresumbridge@slytherin.com', 14, 4, 'Witch', 50, 'La Paz'),
-(16, 'Thiago', 'Almada', 'narcissamalfoy@slytherin.com', 15, 4, 'Witch', 0, 'Córdoba 1453');
-(17, 'Joaquin', 'Correa', 'narcissamalfoy@slytherin.com', 15, 4, 'Witch', 0, 'Córdoba 1453');
-(18, 'Guido', 'Rodriguez', 'narcissamalfoy@slytherin.com', 15, 4, 'Witch', 0, 'Córdoba 1453');
-(19, 'Nicolas', 'Otamendi', 'narcissamalfoy@slytherin.com', 15, 4, 'Witch', 0, 'Córdoba 1453');
-(20, 'Alexis', 'Macallister', 'narcissamalfoy@slytherin.com', 15, 4, 'Witch', 0, 'Córdoba 1453');
-(21, 'Paulo', 'Dybala', 'narcissamalfoy@slytherin.com', 15, 4, 'Witch', 0, 'Córdoba 1453');
-(22, 'Lautaro', 'Martinez', 'narcissamalfoy@slytherin.com', 15, 4, 'Witch', 0, 'Córdoba 1453');
-(23, 'Emiliano', 'Martinez', 'narcissamalfoy@slytherin.com', 15, 4, 'Witch', 0, 'Córdoba 1453');
-(24, 'Enzo', 'Fernandez', 'narcissamalfoy@slytherin.com', 15, 4, 'Witch', 0, 'Córdoba 1453');
-(25, 'Lisandro', 'Martinez', 'narcissamalfoy@slytherin.com', 15, 4, 'Witch', 0, 'Córdoba 1453');
-(26, 'Nahuel', 'Molina', 'narcissamalfoy@slytherin.com', 15, 4, 'Witch', 0, 'Córdoba 1453');
+(1, 'Emiliano', 'Martinez', 'dibumartinez@gmail.com', 14, 2, 'Arquero', 100, 'Mitre 3355'),
+(2, 'Juan', 'Foyth', 'nicootamendi@yahoo.com', 13, 5, 'Defensor', 0, 'San Martín 456'),
+(3, 'Nicolas', 'Tagliafico', 'nicotaglia@gmail.com', 8, 6, 'Defensor', 50, 'España 7768'),
+(4, 'Gonzalo', 'Montiel', 'cachete@gmail.com', 1, 3, 'Defensor', 50, 'Italia 2367'),
+(5, 'Leandro', 'Paredes', 'leoparedes@yahoo.com', 12, 3, 'Mediocampista', 75, 'Balcarce 567'),
+(6, 'German', 'Pezzela', 'pezzela6@gmail.com', 2, 6, 'Defensor', 0, 'Moreno 980'),
+(7, 'Rodrigo', 'De Paul', 'rodridepaul@gmail.com', 3, 5, 'Mediocampista', 75, 'Maipú 2136'),
+(8, 'Marcos', 'Acuña', 'huevoacuña@gmail.com', 1, 4, 'Defensor', 25, 'Pasco 3245'),
+(9, 'Julian', 'Alvarez', 'araña@acamica.com', 6, 4, 'Delantero', 50, 'Ayacucho 1987'),
+(10, 'Lionel', 'Messi', 'lio1@messi.com', 16, 3, 'Delantero', 100, 'Cochabamba 1531'),
+(11, 'Angel', 'Di maria', 'fideo@dimaria.com', 2, 2, 'Delantero', 100, 'Montevideo 2654'),
+(12, 'Ruli', 'Geronimo', 'ruli@acamica.com', 7, 1, 'Arquero', 75, 'Mendoza 2105'),
+(13, 'Romero', 'Cristian', 'cutiromero@gryffindor.com', 11, 3, 'Defensor', 75, 'Entre Ríos 1920'),
+(14, 'Exequiel', 'Palacios', 'palacios@acamica.com', 6, 1, 'Mediocampista', 75, 'Pescio 2106'),
+(15, 'Alejandro', 'Gomez', 'papugomez@slytherin.com', 14, 4, 'Mediocampista', 50, 'La Paz'),
+(16, 'Thiago', 'Almada', 'thiagoalmada@slytherin.com', 15, 4, 'Mediocampista', 25, 'Córdoba 1453');
+
 
 
 -- --------------------------------------------------------
@@ -175,31 +166,31 @@ CREATE TABLE `contacts_channels` (
 INSERT INTO `contacts_channels` (`contact_id`, `channel_id`, `user_account`, `preference`) VALUES
 (0, 0, '', NULL),
 (2, 1, '52554567777', 'Canal favorito'),
-(3, 3, '@harrypotter', 'No molestar'),
-(3, 5, 'https://www.linkedin.com/in/harrypotter', 'Canal favorito'),
+(3, 3, '@nicoTaglia', 'No molestar'),
+(3, 5, 'https://www.linkedin.com/in/nicoTaglia', 'Canal favorito'),
 (4, 1, '54114563336', 'Canal favorito'),
-(4, 4, 'https://www.facebook.com/ronweasley', 'Sin preferencia'),
+(4, 4, 'https://www.facebook.com/cacheteMontiel', 'Sin preferencia'),
 (5, 1, '598234567655', 'Canal favorito'),
 (6, 2, '543515678457', 'No molestar'),
 (7, 1, '543415567433', 'Canal favorito'),
 (8, 1, '54115654766', 'No molestar'),
-(8, 3, '@bellatrixlestrange', 'Sin preferencia'),
+(8, 3, '@huevoAcuña', 'Sin preferencia'),
 (9, 1, '57123456789', 'Canal favorito'),
-(10, 3, '@lordvoldemort', 'Canal favorito'),
+(10, 3, '@lioMessi', 'Canal favorito'),
 (11, 1, '54351432334', 'Sin preferencia'),
 (11, 2, '543515678435', 'Canal favorito'),
 (12, 3, '@minervamcgonagall', 'No molestar'),
-(12, 5, 'https://www.linkedin.com/in/harrypotter', 'Canal favorito'),
-(13, 3, '@nevillelongbottom', 'No molestar'),
-(13, 5, 'https://www.linkedin.com/in/nevillelongbottom', 'Canal favorito'),
+(12, 5, 'https://www.linkedin.com/in/eeee', 'Canal favorito'),
+(13, 3, '@sssss', 'No molestar'),
+(13, 5, 'https://www.linkedin.com/in/dadadad', 'Canal favorito'),
 (14, 2, '5724567435', 'Canal favorito'),
-(14, 3, '@siriusblack', 'Sin preferencia'),
+(14, 3, '@ssss', 'Sin preferencia'),
 (15, 1, '5255568964', 'No molestar'),
 (15, 2, '5255345343', 'No molestar'),
 (15, 3, '@doloresumbridge', 'No molestar'),
-(15, 4, 'https://www.facebook.com/doloresumbridge', 'No molestar'),
-(15, 5, 'https://www.linkedin.com/in/doloresumbridge', 'No molestar'),
-(16, 3, '@narcissamalfoy', 'No molestar');
+(15, 4, 'https://www.facebook.com/enzo', 'No molestar'),
+(15, 5, 'https://www.linkedin.com/in/enzo', 'No molestar'),
+(16, 3, '@fernandez', 'No molestar');
 
 -- --------------------------------------------------------
 
@@ -264,10 +255,10 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_id`, `firstname`, `lastname`, `email`, `perfil`, `password`) VALUES
-(1, 'Daniela', 'Berardi', 'danielaberardi@live.com.ar', 'Admin', '1234'),
-(2, 'Olivia', 'Dichiara', 'olivia@hotmail.com', 'Básico', '5678'),
-(3, 'Gustavo ', 'Elias', 'gaelias@yahoo.com', 'Básico', '123a'),
-(4, 'Alejandro', 'Trobianni', 'aletrobbiani@hotmail.com', 'Básico', '123a');
+(1, 'Ezequiel', 'Sanchez', 'ezsandev', 'Admin', '1234'),
+(2, 'Lionel', 'Messi', 'lionelmessi@hotmail.com', 'Admin', 'campeon'),
+(3, 'Gustavo ', 'Perez', 'gperez@yahoo.com', 'Básico', '123a'),
+(4, 'Ailen', 'Hermosa', 'ailuuu@hotmail.com', 'Básico', '123a');
 
 --
 -- Índices para tablas volcadas
